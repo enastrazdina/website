@@ -1,0 +1,23 @@
+body {
+    background-color: #ffffff;
+    color: rgb(126, 120, 106);
+}
+.container-travel {
+    margin: auto;
+    text-align: center;
+    padding-bottom: 40px;
+}
+.travel {
+    font-size: 12px;
+    padding-bottom: 0;
+}
+p {
+    margin: 0;
+}
+.blog-travel {
+    padding-top: 40px;
+    margin: auto;
+}
+.img-fluid {
+    padding: 5px 0;
+}

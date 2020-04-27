@@ -1,0 +1,70 @@
+body {
+    background-color: rgb(255, 255, 255);
+    color: rgb(126, 120, 106);
+    font-weight: 300;
+
+}
+
+h2 {
+    font-size: 27px;
+    text-align: center;
+}
+.details {
+    margin: auto;
+    text-align: center;
+}
+h3 {
+    text-align: center;
+    font-weight: 200;
+    padding-top: 60px;
+}
+.all  {
+    margin: auto;
+    column-count: 4;
+    column-gap: 20px;
+    padding: 40px 80px;
+    text-align: justify;
+}
+
+span {
+    font-size: 20px;
+    font-style: normal;
+    color: rgb(216, 105, 65);
+}
+.self-portrait {
+    display: flex;
+    flex-direction: column;
+    padding-top: 20px;
+    text-align: center;
+    margin: auto;
+    width: 100%;
+}
+
+.img-fluid {
+    margin: auto;
+}
+.self-portrait p {
+    width: 300px;
+    margin: auto;
+    text-align: justify;
+}
+@media screen and (max-width: 700px) {
+    .all  {
+        margin: auto;
+        column-count: 2;
+        column-gap: 20px;
+        padding: 40px 20px;
+        text-align: justify;
+    }
+.clients, .clients1 {
+    width: 51%;
+    padding: 10px;
+}
+.self-portrait {
+    margin-top: 20px;
+}
+.img-fluid {
+    width: 100%;
+}
+
+}
