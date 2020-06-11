@@ -1,0 +1,15 @@
+.entry {
+    text-align: center;
+    padding: 50px 0;
+}
+i {
+    padding: 0 5px;
+}
+@media screen and (max-width: 700px) {
+    .img-fluid {
+        width: 100%;
+    }
+    .entry {
+        padding-top: 10px;
+    }
+}

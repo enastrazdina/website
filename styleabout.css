@@ -2,7 +2,6 @@ body {
     background-color: rgb(255, 255, 255);
     color: rgb(126, 120, 106);
     font-weight: 300;
-
 }
 
 h2 {
@@ -22,8 +21,9 @@ h3 {
     margin: auto;
     column-count: 4;
     column-gap: 20px;
-    padding: 40px 80px;
+    padding: 40px 90px;
     text-align: justify;
+    /* text-justify: inter-character; not working at browsers yet */
 }
 
 span {
@@ -34,7 +34,7 @@ span {
 .self-portrait {
     display: flex;
     flex-direction: column;
-    padding-top: 20px;
+    padding-top: 50px;
     text-align: center;
     margin: auto;
     width: 100%;

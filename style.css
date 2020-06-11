@@ -4,13 +4,13 @@
     box-sizing: border-box;
     font-family: "helvetica neue", Helvetica, Arial, sans-serif;
 }
-/* img 50% */
 header {
     width: 100%;
-    height: 90px;
+    height: 120px;
     text-align: left;
-    background-color: transparent;
-    /* background-color: rgba(255, 255, 255, 0.795); */
+    background-color: rgba(255, 255, 255, 0.938);
+    top: 0;
+    position: sticky;
 }
 .soc {
     text-align: right;
@@ -34,16 +34,15 @@ a:hover {
 }
 a {
     color: rgb(126, 120, 106);
-
 }
 
 h4 {
     text-align: left;
-    padding-top: 10px;
-    font-size: 42px;
+    padding-top: 25px;
+    font-size: 45px;
     font-weight: 500;
-    letter-spacing: 7px;
-    padding-left: 40px;
+    letter-spacing: 5px;
+    padding-left: 36px;
     z-index: 1;
 }
 .nav-item {
@@ -57,6 +56,9 @@ h4 {
     font-size: 14px;
     font-style: italic;
 }
+.nav-link:hover {
+    font-style: normal;
+}
 .nav-link1 {
     padding-left: 20px;
 }
@@ -67,13 +69,17 @@ h4 {
     color: rgb(216, 105, 65) !important;
 
 }
+.dropdown {
+    padding-top: 5px;
+}
 .dropdown-menu {
     border: none;
-    padding: 0 15px;
-    margin: 0;
-    text-align: left;
     border-radius: 0;
+    background-color:  rgba(255, 255, 255, 0.938);
+    padding: 0 15px 10px;
+    margin: 0;
     min-width: 130px;
+    text-align: left;
 }
 .nav-item1 {
     display: flex;
@@ -100,7 +106,11 @@ h4 {
 .menu {
     font-size: 17px;
     padding-left: 35px;
+    padding-top: 5px;
     color: rgb(126, 120, 106);
+}
+.menu:hover {
+    color: rgb(218, 142, 115);
 }
 li {
     padding: 0;

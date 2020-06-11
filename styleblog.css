@@ -7,6 +7,9 @@ body {
     text-align: center;
     padding-bottom: 40px;
 }
+.mobile {
+    display: none;
+}
 .travel {
     font-size: 12px;
     padding-bottom: 0;
@@ -20,4 +23,34 @@ p {
 }
 .img-fluid {
     padding: 5px 0;
+}
+.scrolling-wrapper {
+    overflow-x: scroll;
+    overflow-y: hidden;
+    white-space: nowrap;
+    border-radius: 0px;
+    padding: 20px;
+    -webkit-overflow-scrolling: touch;
+    margin: auto;
+    width: 100%;
+    }
+    .card {
+    position: initial;
+    display: inline-block;
+    background: transparent;
+    border: none;
+    border-radius: 0px;
+    padding: 10px;
+}
+
+@media screen and (max-width: 900px) {
+    .mobile {
+        display: block;
+    }
+    .blog-travel {
+        display: none;
+    }
+}
+@media screen and (max-width: 900px) {
+
 }
